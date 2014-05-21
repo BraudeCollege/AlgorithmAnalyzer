@@ -1,5 +1,4 @@
 Aplicativo criado para a matéria Análise Algoritmos da Universidade Federal do ABC.
-
 Gera relatório por tempo para cada tipo de algoritmo de ordenação estudado, são eles:
 
 MergeSort
