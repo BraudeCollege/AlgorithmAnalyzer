@@ -1,3 +1,5 @@
+AlgorithmAnalyzer
+
 Aplicativo criado para a matéria Análise Algoritmos da Universidade Federal do ABC.
 Gera relatório por tempo para cada tipo de algoritmo de ordenação estudado, são eles:
 
@@ -8,8 +10,7 @@ BubbleSort
 HeapSort
 QuickSort
 
-Há também a possibilidade de salvar o relatório gerado e alterar configurações para rodar o algoritmo, 
-por exemplo o tamanho do vetor a ser organizado e sua ordenação inicial (aleatória, crescente, decrescente).
+Há também a possibilidade de salvar o relatório gerado e alterar configurações para rodar o algoritmo,por exemplo o tamanho do vetor a ser organizado e sua ordenação inicial (aleatória, crescente, decrescente).
 
 DESCRIÇÃO DOS ALGORITMOS
 
