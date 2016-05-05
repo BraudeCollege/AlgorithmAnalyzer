@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#000000"
+    android:gravity="center_horizontal"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MergeSort"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/botaoValorN"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitulo"
+            android:layout_marginTop="16dp"
+            android:text="Escolha o valor de N"
+            android:textColor="#FFFFFF"
+            android:onClick="setValorN" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/botaoValorN"
+            android:layout_marginTop="18dp"
+            android:text="Dados Aleatórios"
+            android:textColor="#FFFFFF"
+            android:onClick="mudaCheckboxAleatorio" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox1"
+            android:text="Dados Crescentes"
+            android:textColor="#FFFFFF"
+            android:onClick="mudaCheckboxCrescente" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox2"
+            android:text="Dados Decrescente"
+            android:textColor="#FFFFFF"
+            android:onClick="mudaCheckboxDecrescente" />
+
+        <Button
+            android:id="@+id/botaoGeraRelatorio"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox3"
+            android:layout_marginTop="95dp"
+            android:text="Ver Relatório"
+            android:textColor="#FFFFFF"
+            android:onClick="enviaRelatorio" />
+
+        <Button
+            android:id="@+id/botaoRodaAlgoritmo"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/botaoGeraRelatorio"
+            android:layout_marginTop="5dp"
+            android:text="Rodar Algoritmo"
+            android:onClick="rodaAlgoritmo"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/txtNumeroTestes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/checkBox3"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:text="Número de Testes"
+            android:textColor="#FFFFFF"
+            android:onClick="limparTexto" >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</RelativeLayout>

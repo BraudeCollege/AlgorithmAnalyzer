@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/botaoMerge"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreMerge"
+        android:text="MergeSort"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botaoSelection"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreSelection"
+        android:text="SelectionSort"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botaoInsertion"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreInsertion"
+        android:text="InsertionSort"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botaoBubble"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreBubble"
+        android:text="BubbleSort"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botaoHeap"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreHeap"
+        android:text="HeapSort"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/botaoQuick"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreQuick"
+        android:text="QuickSort"
+        android:textColor="#FFFFFF" />
+    
+    <Button
+        android:id="@+id/botaoQuick"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abreTodos"
+        android:text="Todos Algortimos"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/finder" />
+
+</LinearLayout>
